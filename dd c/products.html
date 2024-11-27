@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - Fusion</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contacts</a>
+      <a href="login.html">Login</a>
+      <a href="cart.html">Cart</a>
+      <div id="user-name" class="user-info"></div>
+    </nav>
+  </header>
+  <main>
+    <h1>Our Products</h1>
+    <div class="products-grid">
+      <div class="products-card">
+        <img src="artboard (28).jpg" alt="Product 1" width="250px" height="auto">
+        <p>product 1 - $20.00</p>
+        <button onclick="addToCart('Product 1', 20)">Add to Cart</button>
+      </div>
+      <div class="products-card">
+        <img src="artboard (29).jpg" alt="Product 2" width="250px" height="auto">
+        <p>Product 2 - $20.00</p>
+        <button onclick="addToCart('Product 2', 30)">Add to Cart</button>
+      </div>
+      <div class="products-card">
+        <img src="artboard (23).jpg" alt="Product 3" width="250px" height="auto">
+        <p>Product 3 - $20.00</p>
+        <button onclick="addToCart('Product 3', 30)">Add to Cart</button>
+      </div>
+      <div class="products-card">
+        <img src="artboard (26).jpg" alt="Product 4" width="250px" height="auto">
+        <p>Product 4 - $20.00</p>
+        <button onclick="addToCart('Product 4', 30)">Add to Cart</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    Whatever you want, you'll get it.
+  </footer>
+</body>
+</html>

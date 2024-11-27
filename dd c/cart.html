@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart - Fusion</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contacts</a>
+      <a href="login.html">Login</a>
+      <a href="cart.html">Cart</a>
+      <div id="user-name" class="user-info"></div>
+    </nav>
+  </header>
+  <main>
+    <h1>Your Cart</h1>
+    <div class="cart-container">
+      <table id="cart-table">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody id="cart-items">
+          <!-- Cart items will be dynamically added here -->
+        </tbody>
+      </table>
+      <div class="cart-summary">
+        <h2>Final Total: $<span id="final-total">0.00</span></h2>
+        <button id="checkout-btn">Proceed to Checkout</button>
+     
+  
+    <div id="checkout-popup" class="popup">
+      <div class="popup-content">
+        <span id="close-popup">&times;</span>
+        <h2>Checkout</h2>
+        <p>Total Amount: $<span id="checkout-total">0.00</span></p>
+        <div class="payment-options">
+          <button>Apple Pay</button>
+          <button>Google Pay</button>
+          <button>PayPal</button>
+          <button>Credit Card</button>
+        
+     
+    </div>
+  </main>
+
+  <footer>
+    <p>Whatever you want, you'll get it.</p>
+  </footer>
+</body>
+</html>
